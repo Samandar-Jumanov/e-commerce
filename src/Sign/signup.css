@@ -1,0 +1,107 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.SignUp
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container
+{
+    width: 400px;
+    height: 490px;
+    margin-top: 2%;
+    border-radius: 20px;
+   background: #4444;
+}
+
+#header
+{
+    color: cyan;
+    margin-bottom: 10%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 2%;
+}
+#nameField , #passwordField
+{   width:70%;
+    justify-content: center;
+    margin-top: 10px;
+    height: 40px;
+    appearance: none;
+    outline: none;
+    border-radius: 5px;
+    /* border: none; */
+    margin-left: 12%;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    border: 1px solid cyan ;
+    color: cyan;
+}
+::placeholder
+{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: left;
+   
+}
+
+#btn
+{
+    width: 70%;
+    height: 50px;
+    background-color:cyan;
+    border: none;
+    border-radius: 5px;
+    margin-left:12%;
+    cursor: pointer;
+    margin-top: 20%;
+    color: black;
+    font-weight: bold;
+}
+.or{
+ text-align: center;
+ color: white;
+ margin-top: 10px;
+}
+#btn2
+{
+    
+    width: 70%;
+    height: 50px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    margin-left:12%;
+    cursor: pointer;
+    margin-top: 5%;
+    color: white;
+}
+
+.google
+{
+    color: red;
+}
+@media (width<=1000px) {
+    .SignUp
+    {
+        height: 85vh;
+
+    }
+    .container
+    {
+        width: 320px;
+        height: 420px;
+    }
+}
